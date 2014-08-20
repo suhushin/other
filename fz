@@ -1,0 +1,992 @@
+Статус:	Соединение установлено
+Статус:	Начинаю скачивать /admin/uid.dat
+Команда:	CWD /admin
+Ответ:	200 MLST OPTS type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Статус:	Соединение установлено
+Статус:	Начинаю скачивать /admin/level.dat
+Команда:	CWD /admin
+Ответ:	250 "/admin" is the current directory.
+Команда:	PWD
+Ответ:	250 "/admin" is the current directory.
+Команда:	PWD
+Ответ:	250 "/admin" is the current directory.
+Команда:	PWD
+Ответ:	257 "/admin" is the current directory.
+Команда:	CWD region
+Ответ:	257 "/admin" is the current directory.
+Команда:	TYPE I
+Ответ:	257 "/admin" is the current directory.
+Команда:	TYPE I
+Ответ:	250 "/admin/region" is the current directory.
+Команда:	PWD
+Ответ:	200 Type set to: Binary.
+Команда:	PASV
+Ответ:	200 Type set to: Binary.
+Команда:	PASV
+Ответ:	257 "/admin/region" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,226,56).
+Команда:	RETR uid.dat
+Ответ:	227 Entering passive mode (89,108,86,169,192,119).
+Команда:	RETR level.dat
+Ответ:	227 Entering passive mode (89,108,86,169,213,220).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	125 Data connection already open. Transfer starting.
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Ответ:	226 Transfer complete.
+Статус:	Файл передан успешно, передан 422 байт в 1 секунда
+Статус:	Начинаю скачивать /admin/session.lock
+Команда:	PASV
+Статус:	Файл передан успешно, передан 16 байт в 1 секунда
+Статус:	Начинаю скачивать /admin/level.dat_old
+Команда:	PASV
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /admin
+Ответ:	227 Entering passive mode (89,108,86,169,236,23).
+Команда:	RETR session.lock
+Ответ:	227 Entering passive mode (89,108,86,169,136,62).
+Команда:	RETR level.dat_old
+Ответ:	250 "/admin" is the current directory.
+Команда:	CWD data
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	125 Data connection already open. Transfer starting.
+Ответ:	250 "/admin/data" is the current directory.
+Команда:	PWD
+Ответ:	226 Transfer complete.
+Ответ:	226 Transfer complete.
+Статус:	Файл передан успешно, передан 8 байт в 1 секунда
+Статус:	Начинаю скачивать /admin/region/r.0.1.mca
+Команда:	CWD /admin/region
+Статус:	Файл передан успешно, передан 423 байт в 1 секунда
+Статус:	Начинаю скачивать /admin/region/r.-1.1.mca
+Команда:	CWD /admin/region
+Ответ:	257 "/admin/data" is the current directory.
+Команда:	PASV
+Ответ:	250 "/admin/region" is the current directory.
+Команда:	PWD
+Ответ:	250 "/admin/region" is the current directory.
+Команда:	PWD
+Ответ:	227 Entering passive mode (89,108,86,169,208,189).
+Команда:	MLSD
+Ответ:	257 "/admin/region" is the current directory.
+Команда:	PASV
+Ответ:	257 "/admin/region" is the current directory.
+Команда:	PASV
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Ответ:	227 Entering passive mode (89,108,86,169,129,111).
+Команда:	RETR r.-1.1.mca
+Ответ:	227 Entering passive mode (89,108,86,169,193,26).
+Команда:	RETR r.0.1.mca
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	250 "/" is the current directory.
+Команда:	PWD
+Ответ:	257 "/" is the current directory.
+Команда:	CWD IF2
+Ответ:	250 "/IF2" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,202,209).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/IF2/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,218,65).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2
+Ответ:	250 "/IF2" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2" is the current directory.
+Команда:	CWD region
+Ответ:	250 "/IF2/region" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2/region" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,237,180).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2
+Ответ:	250 "/IF2" is the current directory.
+Команда:	CWD playerdata
+Ответ:	250 "/IF2/playerdata" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2/playerdata" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,163,233).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ошибка:	Превышено время ожидания соединения
+Ошибка:	Передача файла потерпела неудачу после передачи 5 680 байт в 28 секунд
+Статус:	Определение IP-адреса для mc.indfinde.ru
+Статус:	Соединяюсь с 89.108.86.169:21...
+Статус:	Соединение установлено, ожидание приглашения...
+Ответ:	220 Multicraft 1.8.2 FTP server
+Команда:	USER cm_suhushin@mail.ru.2532
+Ответ:	331 Username ok, send password.
+Команда:	PASS **********
+Ответ:	230 Login successful
+Команда:	OPTS UTF8 ON
+Ответ:	200 OK
+Команда:	OPTS MLST type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Ответ:	200 MLST OPTS type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Статус:	Соединение установлено
+Статус:	Начинаю скачивать /admin/region/r.0.1.mca
+Команда:	CWD /admin/region
+Ответ:	250 "/admin/region" is the current directory.
+Команда:	TYPE I
+Ответ:	200 Type set to: Binary.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,227,135).
+Команда:	REST 5680
+Ответ:	350 Restarting at position 5680.
+Команда:	RETR r.0.1.mca
+Ответ:	150 File status okay. About to open data connection.
+Ошибка:	Превышено время ожидания соединения
+Ошибка:	Передача файла потерпела неудачу после передачи 17 040 байт в 51 секунда
+Статус:	Определение IP-адреса для mc.indfinde.ru
+Статус:	Соединяюсь с 89.108.86.169:21...
+Статус:	Соединение установлено, ожидание приглашения...
+Ответ:	220 Multicraft 1.8.2 FTP server
+Команда:	USER cm_suhushin@mail.ru.2532
+Ответ:	331 Username ok, send password.
+Команда:	PASS **********
+Ответ:	230 Login successful
+Команда:	OPTS UTF8 ON
+Ответ:	200 OK
+Команда:	OPTS MLST type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Ответ:	200 MLST OPTS type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Статус:	Соединение установлено
+Статус:	Начинаю скачивать /admin/region/r.-1.1.mca
+Команда:	CWD /admin/region
+Ответ:	250 "/admin/region" is the current directory.
+Команда:	TYPE I
+Ответ:	200 Type set to: Binary.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,172,66).
+Команда:	REST 17040
+Ответ:	350 Restarting at position 17040.
+Команда:	RETR r.-1.1.mca
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Ошибка:	Передача файла прервана пользователем после передачи 25 560 байт в 45 секунд
+Ошибка:	Передача файла прервана пользователем после передачи 51 120 байт в 23 секунды
+Ответ:	426 Transfer aborted; 110760 bytes transmitted.
+Ответ:	421 Timeout.
+Ошибка:	Соединение закрыто сервером
+Статус:	Отключен от сервера
+Статус:	Отключен от сервера
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2
+Ответ:	250 "/IF2" is the current directory.
+Команда:	CWD data
+Ответ:	250 "/IF2/data" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2/data" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,134,223).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /
+Ответ:	250 "/" is the current directory.
+Команда:	CWD IF2-np
+Ответ:	250 "/IF2-np" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,198,56).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/IF2-np/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,176,125).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2-np
+Ответ:	250 "/IF2-np" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np" is the current directory.
+Команда:	CWD region
+Ответ:	250 "/IF2-np/region" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np/region" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,131,227).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2-np
+Ответ:	250 "/IF2-np" is the current directory.
+Команда:	CWD data
+Ответ:	250 "/IF2-np/data" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np/data" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,134,46).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /
+Ответ:	250 "/" is the current directory.
+Команда:	CWD IF2-np_nether
+Ответ:	250 "/IF2-np_nether" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_nether" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,194,144).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/IF2-np_nether/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_nether/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,158,164).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2-np_nether
+Ответ:	250 "/IF2-np_nether" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_nether" is the current directory.
+Команда:	CWD DIM-1
+Ответ:	250 "/IF2-np_nether/DIM-1" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_nether/DIM-1" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,167,193).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD region
+Ответ:	250 "/IF2-np_nether/DIM-1/region" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_nether/DIM-1/region" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,220,108).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2-np_nether
+Ответ:	250 "/IF2-np_nether" is the current directory.
+Команда:	CWD data
+Ответ:	250 "/IF2-np_nether/data" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_nether/data" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,218,209).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /
+Ответ:	250 "/" is the current directory.
+Команда:	CWD IF2-np_the_end
+Ответ:	250 "/IF2-np_the_end" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_the_end" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,130,104).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/IF2-np_the_end/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_the_end/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,152,197).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2-np_the_end
+Ответ:	250 "/IF2-np_the_end" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_the_end" is the current directory.
+Команда:	CWD DIM1
+Ответ:	250 "/IF2-np_the_end/DIM1" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_the_end/DIM1" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,150,247).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD region
+Ответ:	250 "/IF2-np_the_end/DIM1/region" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_the_end/DIM1/region" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,148,52).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2-np_the_end
+Ответ:	250 "/IF2-np_the_end" is the current directory.
+Команда:	CWD data
+Ответ:	250 "/IF2-np_the_end/data" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2-np_the_end/data" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,203,51).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /
+Ответ:	250 "/" is the current directory.
+Команда:	CWD IF2_nether
+Ответ:	250 "/IF2_nether" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_nether" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,178,235).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/IF2_nether/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_nether/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,215,144).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2_nether
+Ответ:	250 "/IF2_nether" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_nether" is the current directory.
+Команда:	CWD DIM-1
+Ответ:	250 "/IF2_nether/DIM-1" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_nether/DIM-1" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,128,41).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD region
+Ответ:	250 "/IF2_nether/DIM-1/region" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_nether/DIM-1/region" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,202,145).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2_nether
+Ответ:	250 "/IF2_nether" is the current directory.
+Команда:	CWD data
+Ответ:	250 "/IF2_nether/data" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_nether/data" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,165,255).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /
+Ответ:	250 "/" is the current directory.
+Команда:	CWD IF2_the_end
+Ответ:	250 "/IF2_the_end" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_the_end" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,174,133).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/IF2_the_end/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_the_end/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,230,126).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2_the_end
+Ответ:	250 "/IF2_the_end" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_the_end" is the current directory.
+Команда:	CWD DIM1
+Ответ:	250 "/IF2_the_end/DIM1" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_the_end/DIM1" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,226,197).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD region
+Ответ:	250 "/IF2_the_end/DIM1/region" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_the_end/DIM1/region" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,219,56).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2_the_end
+Ответ:	250 "/IF2_the_end" is the current directory.
+Команда:	CWD data
+Ответ:	250 "/IF2_the_end/data" is the current directory.
+Команда:	PWD
+Ответ:	257 "/IF2_the_end/data" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,142,227).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /
+Ответ:	250 "/" is the current directory.
+Команда:	CWD Jump
+Ответ:	250 "/Jump" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,224,163).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/Jump/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,142,67).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /Jump
+Ответ:	250 "/Jump" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump" is the current directory.
+Команда:	CWD DIM-1
+Ответ:	250 "/Jump/DIM-1" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/DIM-1" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,219,63).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/Jump/DIM-1/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/DIM-1/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,155,142).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /Jump/DIM-1
+Ответ:	250 "/Jump/DIM-1" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/DIM-1" is the current directory.
+Команда:	CWD ##MCEDIT.TEMP##
+Ответ:	250 "/Jump/DIM-1/##MCEDIT.TEMP##" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/DIM-1/##MCEDIT.TEMP##" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,193,26).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /Jump/DIM-1
+Ответ:	250 "/Jump/DIM-1" is the current directory.
+Команда:	CWD data
+Ответ:	250 "/Jump/DIM-1/data" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/DIM-1/data" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,155,26).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /Jump
+Ответ:	250 "/Jump" is the current directory.
+Команда:	CWD region
+Ответ:	250 "/Jump/region" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/region" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,211,41).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /Jump
+Ответ:	250 "/Jump" is the current directory.
+Команда:	CWD DIM1
+Ответ:	250 "/Jump/DIM1" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/DIM1" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,158,193).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/Jump/DIM1/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/DIM1/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,170,141).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /Jump/DIM1
+Ответ:	250 "/Jump/DIM1" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/DIM1" is the current directory.
+Команда:	CWD ##MCEDIT.TEMP##
+Ответ:	250 "/Jump/DIM1/##MCEDIT.TEMP##" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/DIM1/##MCEDIT.TEMP##" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,223,203).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /Jump/DIM1
+Ответ:	250 "/Jump/DIM1" is the current directory.
+Команда:	CWD data
+Ответ:	250 "/Jump/DIM1/data" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/DIM1/data" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,190,233).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /Jump
+Ответ:	250 "/Jump" is the current directory.
+Команда:	CWD data
+Ответ:	250 "/Jump/data" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/data" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,212,100).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /Jump
+Ответ:	250 "/Jump" is the current directory.
+Команда:	CWD NEI
+Ответ:	250 "/Jump/NEI" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/NEI" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,213,165).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/Jump/NEI/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/Jump/NEI/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,174,160).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /
+Ответ:	250 "/" is the current directory.
+Команда:	CWD newlobby
+Ответ:	250 "/newlobby" is the current directory.
+Команда:	PWD
+Ответ:	257 "/newlobby" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,219,54).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/newlobby/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/newlobby/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,190,90).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /newlobby
+Ответ:	250 "/newlobby" is the current directory.
+Команда:	PWD
+Ответ:	257 "/newlobby" is the current directory.
+Команда:	CWD region
+Ответ:	250 "/newlobby/region" is the current directory.
+Команда:	PWD
+Ответ:	257 "/newlobby/region" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,144,71).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /newlobby
+Ответ:	250 "/newlobby" is the current directory.
+Команда:	CWD data
+Ответ:	250 "/newlobby/data" is the current directory.
+Команда:	PWD
+Ответ:	257 "/newlobby/data" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,156,97).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /
+Ответ:	250 "/" is the current directory.
+Команда:	CWD templobby
+Ответ:	250 "/templobby" is the current directory.
+Команда:	PWD
+Ответ:	257 "/templobby" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,227,137).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD players
+Ответ:	250 "/templobby/players" is the current directory.
+Команда:	PWD
+Ответ:	257 "/templobby/players" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,222,251).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ошибка:	Превышено время ожидания соединения
+Ошибка:	Не удалось получить список каталогов
+Статус:	Определение IP-адреса для mc.indfinde.ru
+Статус:	Соединяюсь с 89.108.86.169:21...
+Статус:	Соединение установлено, ожидание приглашения...
+Ответ:	220 Multicraft 1.8.2 FTP server
+Команда:	USER cm_suhushin@mail.ru.2532
+Ответ:	331 Username ok, send password.
+Команда:	PASS **********
+Ответ:	230 Login successful
+Команда:	OPTS UTF8 ON
+Ответ:	200 OK
+Команда:	OPTS MLST type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Ответ:	200 MLST OPTS type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Статус:	Соединение установлено
+Статус:	Получение списка каталогов...
+Команда:	CWD /templobby/players
+Ответ:	250 "/templobby/players" is the current directory.
+Команда:	TYPE I
+Ответ:	200 Type set to: Binary.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,203,223).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ошибка:	Превышено время ожидания соединения
+Ошибка:	Не удалось получить список каталогов
+Статус:	Определение IP-адреса для mc.indfinde.ru
+Статус:	Соединяюсь с 89.108.86.169:21...
+Статус:	Соединение установлено, ожидание приглашения...
+Ответ:	220 Multicraft 1.8.2 FTP server
+Команда:	USER cm_suhushin@mail.ru.2532
+Ответ:	331 Username ok, send password.
+Команда:	PASS **********
+Ответ:	230 Login successful
+Команда:	OPTS UTF8 ON
+Ответ:	200 OK
+Команда:	OPTS MLST type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Ответ:	200 MLST OPTS type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Статус:	Соединение установлено
+Статус:	Получение списка каталогов...
+Команда:	CWD /templobby
+Ответ:	250 "/templobby" is the current directory.
+Команда:	PWD
+Ответ:	257 "/templobby" is the current directory.
+Команда:	CWD region
+Ответ:	250 "/templobby/region" is the current directory.
+Команда:	PWD
+Ответ:	257 "/templobby/region" is the current directory.
+Команда:	TYPE I
+Ответ:	200 Type set to: Binary.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,166,246).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /templobby
+Ответ:	250 "/templobby" is the current directory.
+Команда:	CWD stats
+Ответ:	250 "/templobby/stats" is the current directory.
+Команда:	PWD
+Ответ:	257 "/templobby/stats" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,160,80).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ошибка:	Превышено время ожидания соединения
+Ошибка:	Не удалось получить список каталогов
+Статус:	Определение IP-адреса для mc.indfinde.ru
+Статус:	Соединяюсь с 89.108.86.169:21...
+Статус:	Соединение установлено, ожидание приглашения...
+Ответ:	220 Multicraft 1.8.2 FTP server
+Команда:	USER cm_suhushin@mail.ru.2532
+Ответ:	331 Username ok, send password.
+Команда:	PASS **********
+Ответ:	230 Login successful
+Команда:	OPTS UTF8 ON
+Ответ:	200 OK
+Команда:	OPTS MLST type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Ответ:	200 MLST OPTS type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Статус:	Соединение установлено
+Статус:	Получение списка каталогов...
+Команда:	CWD /templobby/stats
+Ответ:	250 "/templobby/stats" is the current directory.
+Команда:	TYPE I
+Ответ:	200 Type set to: Binary.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,152,80).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ошибка:	Превышено время ожидания соединения
+Ошибка:	Не удалось получить список каталогов
+Статус:	Определение IP-адреса для mc.indfinde.ru
+Статус:	Соединяюсь с 89.108.86.169:21...
+Статус:	Соединение установлено, ожидание приглашения...
+Ответ:	220 Multicraft 1.8.2 FTP server
+Команда:	USER cm_suhushin@mail.ru.2532
+Ответ:	331 Username ok, send password.
+Команда:	PASS **********
+Ответ:	230 Login successful
+Команда:	OPTS UTF8 ON
+Ответ:	200 OK
+Команда:	OPTS MLST type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Ответ:	200 MLST OPTS type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Статус:	Соединение установлено
+Статус:	Получение списка каталогов...
+Команда:	CWD /templobby
+Ответ:	250 "/templobby" is the current directory.
+Команда:	CWD data
+Ответ:	250 "/templobby/data" is the current directory.
+Команда:	PWD
+Ответ:	257 "/templobby/data" is the current directory.
+Команда:	TYPE I
+Ответ:	200 Type set to: Binary.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,226,146).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Ответ:	421 Control connection timed out.
+Ошибка:	Соединение закрыто сервером
+Статус:	Определение IP-адреса для mc.indfinde.ru
+Статус:	Соединяюсь с 89.108.86.169:21...
+Статус:	Соединение установлено, ожидание приглашения...
+Ответ:	220 Multicraft 1.8.2 FTP server
+Команда:	USER cm_suhushin@mail.ru.2532
+Ответ:	331 Username ok, send password.
+Команда:	PASS **********
+Ответ:	230 Login successful
+Команда:	OPTS UTF8 ON
+Ответ:	200 OK
+Команда:	OPTS MLST type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Ответ:	200 MLST OPTS type;perm;size;modify;unix.mode;unix.uid;unix.gid;
+Статус:	Соединение установлено
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2
+Ответ:	250 "/IF2" is the current directory.
+Команда:	TYPE I
+Ответ:	200 Type set to: Binary.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,130,236).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CDUP
+Ответ:	250 "/" is the current directory.
+Команда:	PWD
+Ответ:	257 "/" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,139,193).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2-np
+Ответ:	250 "/IF2-np" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,134,173).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CDUP
+Ответ:	250 "/" is the current directory.
+Команда:	PWD
+Ответ:	257 "/" is the current directory.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2-np_nether
+Ответ:	250 "/IF2-np_nether" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,142,232).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CDUP
+Ответ:	250 "/" is the current directory.
+Команда:	PWD
+Ответ:	257 "/" is the current directory.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /IF2-np_the_end
+Ответ:	250 "/IF2-np_the_end" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,165,247).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CDUP
+Ответ:	250 "/" is the current directory.
+Команда:	PWD
+Ответ:	257 "/" is the current directory.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CWD /admin
+Ответ:	250 "/admin" is the current directory.
+Команда:	PASV
+Ответ:	227 Entering passive mode (89,108,86,169,152,196).
+Команда:	MLSD
+Ответ:	150 File status okay. About to open data connection.
+Ответ:	226 Transfer complete.
+Статус:	Список каталогов извлечен
+Статус:	Получение списка каталогов...
+Команда:	CDUP
+Ответ:	250 "/" is the current directory.
+Команда:	PWD
+Ответ:	257 "/" is the current directory.
+Статус:	Список каталогов извлечен
+Ответ:	421 Control connection timed out.
+Ошибка:	Соединение закрыто сервером
